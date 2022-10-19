@@ -60,7 +60,7 @@ function loggingIdentity<T extends Lengthwise>(arg: T): T {
 
 let num: number = 7
 let str: string = ''
-loggingIdentity(num) // 类型“number”的参数不能赋给类型“Lengthwise”的参数
+// loggingIdentity(num) // 类型“number”的参数不能赋给类型“Lengthwise”的参数
 loggingIdentity(str)
 
 // 泛型接口
