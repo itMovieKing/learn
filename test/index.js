@@ -1,27 +1,9 @@
-// type Cat = {
-//   name: string
+import { Animal } from './test/index';
+var a = new Animal('cola');
+// function component() {
+//   const element = document.createElement('div');
+//   // Lodash, now imported by this script
+//   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+//   return element;
 // }
-// let cola: Cat = {
-//   name: 'cola'
-// }
-// let dog: Animal;
-// let err: Api;
-// let res: Rs;
-// export class Animal {
-//   private name;
-//   public constructor(name: string) {
-//     this.name = name;
-//   }
-// }
-var Animal = /** @class */ (function () {
-    function Animal(name) {
-        this.name = name;
-    }
-    return Animal;
-}());
-var a = new Animal('Jack');
-console.log(a.name); // Jack
-a.name = 'Tom';
-console.log(a.name); // Tom
-var resArr = [1, 2, 3];
-export {};
+// document.body.appendChild(component());

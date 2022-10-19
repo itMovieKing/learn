@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "tsnode": "ts-node --esm src/test/index"
+    "tsnode": "ts-node --esm src/test/index",
+    "eslint": "eslint src/test/lint"
   },
   "author": "",
   "license": "ISC",

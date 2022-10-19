@@ -34,7 +34,7 @@ class Student {
   public constructor(public name: string) {}
 }
 
-const lily: Student = new Student('lily’s name')
+const lily: Student = new Student("lily's name")
 console.log(lily.name) // lily’s name
 
 
@@ -107,8 +107,5 @@ const listData: Res<ListResItem[]> = {
   ]
 }
 const data = listData.data
-
-
-
 
 export {}

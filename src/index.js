@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import { Animal } from './test/index'
+import * as ts from './test/lint'
 
 const a = new Animal('cola')
 

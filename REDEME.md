@@ -2,6 +2,7 @@
 https://juejin.cn/post/7106696029810098207
 ## ts
 https://ts.xcatliu.com/basics/declaration-files.html
+https://www.tslang.cn/docs/handbook/basic-types.html()
 ## webpack
 https://webpack.docschina.org/concepts/
 
