@@ -1,2 +1,0 @@
-var myName = 'Tom';
-export {};
