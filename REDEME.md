@@ -9,6 +9,9 @@ https://webpack.docschina.org/concepts/
 ## tsconfig配置 
 https://www.tslang.cn/docs/handbook/tsconfig-json.html
 
+## ts题库
+https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md
+
 # loader介绍
  ## awesome-typescript-loader
  可以让Webpack使用TypeScript的标准配置文件 tsconfig.json编译TypeScript代码。 
