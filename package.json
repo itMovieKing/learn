@@ -7,8 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "tsnode": "ts-node --esm test/test",
-    "eslint": "eslint src/test/lint"
+    "tsnode": "ts-node --esm docsTS/enumTS",
+    "eslint": "eslint src/test/lint",
+    "tsc": "tsc docsTS/baseTS",
+    "getts": "dtsmake -s docsTS/classTS.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +27,7 @@
   "dependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "dtsmake": "0.0.10",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
